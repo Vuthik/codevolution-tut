@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
 
+import State from './components/State'
+// import Props from './components/Props';
+// import ClassComponent from './components/ClassComponent';
+// import FunctionComponent from './components/FunctionComponent';
+// import Jsx from './components/Jsx';
+// import NoJsx from './components/NoJsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <State>
+        
+      </State>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <FunctionComponent />
+      <ClassComponent />
+      <Jsx />
+      <NoJsx /> */}
+
+      {/* props tut */}
+      {/* <Props name="Vuthik" age="23">
+        <p>This is children props</p>
+      </Props>
+      <Props name="Bruce" heroName="Batman">
+        <button>Action</button>
+      </Props>
+      <Props name="Clark" heroName="Superman" />
+      <Props name="Diana" heroName="Wonder Woman" />
+
+      <ClassComponent name="Bruce" heroName="Batman"></ClassComponent>
+      <ClassComponent name="Clark" heroName="Superman"></ClassComponent>
+      <ClassComponent name="Diana" heroName="Wonder Woman"></ClassComponent> */}
     </div>
   );
 }
