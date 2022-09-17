@@ -1,6 +1,7 @@
 import './App.css';
+import Counter from './components/Counter';
 
-import State from './components/State'
+// import State from './components/State';
 // import Props from './components/Props';
 // import ClassComponent from './components/ClassComponent';
 // import FunctionComponent from './components/FunctionComponent';
@@ -9,22 +10,9 @@ import State from './components/State'
 function App() {
   return (
     <div className="App">
-      <State>
-        
-      </State>
+      <Counter />
 
-
-
-
-
-
-
-
-
-
-
-
-
+      {/* <State /> */}
       {/* <FunctionComponent />
       <ClassComponent />
       <Jsx />
