@@ -1,6 +1,7 @@
 import './App.css';
-import FunctionClick from './components/Tut13/FunctionClick';
-import ClassClick from './components/Tut13/ClassClick';
+import EventBind from './components/Tut14/EventBind';
+// import FunctionClick from './components/Tut13/FunctionClick';
+// import ClassClick from './components/Tut13/ClassClick';
 // import DestrPropStateFunc from './components/DestrPropStateFunc';
 // import DestrPropStateClass from './components/DestrPropStateClass';
 // import Counter from './components/Counter';
@@ -13,9 +14,9 @@ import ClassClick from './components/Tut13/ClassClick';
 function App() {
   return (
     <div className="App">
-      <FunctionClick/>
-      <ClassClick/>
-
+      <EventBind />
+      {/* <FunctionClick/>
+      <ClassClick/> */}
       {/* <DestrPropStateFunc name="Bruce" heroName="Batman"/>
       <DestrPropStateClass name="Bruce" heroName="Batman"/> */}
       {/* <Counter /> */}
