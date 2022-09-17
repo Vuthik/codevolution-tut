@@ -1,6 +1,7 @@
 import './App.css';
-import Counter from './components/Counter';
-
+import DestrPropStateFunc from './components/DestrPropStateFunc';
+import DestrPropStateClass from './components/DestrPropStateClass';
+// import Counter from './components/Counter';
 // import State from './components/State';
 // import Props from './components/Props';
 // import ClassComponent from './components/ClassComponent';
@@ -10,8 +11,9 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter />
-
+      <DestrPropStateFunc name="Bruce" heroName="Batman"/>
+      <DestrPropStateClass name="Bruce" heroName="Batman"/>
+      {/* <Counter /> */}
       {/* <State /> */}
       {/* <FunctionComponent />
       <ClassComponent />
