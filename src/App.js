@@ -1,5 +1,6 @@
 import './App.css';
-import EventBind from './components/Tut14/EventBind';
+import ParentComponent from './components/Tut15/ParentComponent';
+// import EventBind from './components/Tut14/EventBind';
 // import FunctionClick from './components/Tut13/FunctionClick';
 // import ClassClick from './components/Tut13/ClassClick';
 // import DestrPropStateFunc from './components/DestrPropStateFunc';
@@ -14,7 +15,8 @@ import EventBind from './components/Tut14/EventBind';
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <ParentComponent />
+      {/* <EventBind /> */}
       {/* <FunctionClick/>
       <ClassClick/> */}
       {/* <DestrPropStateFunc name="Bruce" heroName="Batman"/>
