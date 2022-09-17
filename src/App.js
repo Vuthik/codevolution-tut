@@ -1,5 +1,6 @@
 import './App.css';
-import UserGreeting from './components/Tut16/UserGreeting';
+import NameList from './components/Tut17/NameList';
+// import UserGreeting from './components/Tut16/UserGreeting';
 // import ParentComponent from './components/Tut15/ParentComponent';
 // import EventBind from './components/Tut14/EventBind';
 // import FunctionClick from './components/Tut13/FunctionClick';
@@ -16,7 +17,8 @@ import UserGreeting from './components/Tut16/UserGreeting';
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
+      {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <FunctionClick/>
