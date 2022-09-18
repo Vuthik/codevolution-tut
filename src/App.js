@@ -1,5 +1,5 @@
 import './App.css';
-import NameList from './components/Tut17/NameList';
+import NameList from './components/Tut17,18,19/NameList';
 // import UserGreeting from './components/Tut16/UserGreeting';
 // import ParentComponent from './components/Tut15/ParentComponent';
 // import EventBind from './components/Tut14/EventBind';
