@@ -1,7 +1,7 @@
 import React from 'react';
 import Person from './Person';
 function NameList() {
-  const names = ['Bruce', 'Clark', 'Diana'];
+  const names = ['Bruce', 'Clark', 'Diana', 'Bruce'];
   const persons = [
     {
       id: 1,
@@ -22,9 +22,15 @@ function NameList() {
       skill: 'Vue',
     },
   ];
-  const personList = persons.map((person) => <Person key={person.id} person={person} />);
-  const nameList = names.map((name) => <h2 key={name}>{name}</h2>);
-  return <div>{personList}</div>;
+  const personList = persons.map((person) => (
+    <Person key={person.id} person={person} />
+  ));
+  const nameList = names.map((name, index) => (
+    <h2 key={index}>
+      {index}: {name}
+    </h2>
+  ));
+  return <div>{nameList}</div>;
 }
 
 export default NameList;
