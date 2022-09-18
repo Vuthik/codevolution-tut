@@ -1,5 +1,9 @@
 import './App.css';
-import NameList from './components/Tut17,18,19/NameList';
+import StyleSheet from './components/Tut20/StyleSheet';
+import Inline from './components/Tut20/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';
+// import NameList from './components/Tut17,18,19/NameList';
 // import UserGreeting from './components/Tut16/UserGreeting';
 // import ParentComponent from './components/Tut15/ParentComponent';
 // import EventBind from './components/Tut14/EventBind';
@@ -17,7 +21,11 @@ import NameList from './components/Tut17,18,19/NameList';
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <h1 className={styles.success}>Success</h1>
+      <h1 className="error">Error</h1>
+      <StyleSheet primary={true} />
+      <Inline />
+      {/* <NameList /> */}
       {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
