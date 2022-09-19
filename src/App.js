@@ -1,5 +1,6 @@
 import './App.css';
-import Form from './components/Tut21/Form';
+import LifeCycleA from './components/Tut22,23,24/LifeCycleA';
+// import Form from './components/Tut21/Form';
 // import StyleSheet from './components/Tut20/StyleSheet';
 // import Inline from './components/Tut20/Inline';
 // import './appStyles.css';
@@ -22,7 +23,8 @@ import Form from './components/Tut21/Form';
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifeCycleA />
+      {/* <Form /> */}
       {/* <h1 className={styles.success}>Success</h1>
       <h1 className="error">Error</h1>
       <StyleSheet primary={true} />
